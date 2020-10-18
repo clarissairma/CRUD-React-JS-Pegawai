@@ -14,7 +14,7 @@ class DetailUserContainer extends Component {
     return (
       <Container>
         <BackComponent />
-        <h1>Detail User</h1>
+        <h1>Detail Pegawai</h1>
         <DetailUserComponent />
       </Container>
     );

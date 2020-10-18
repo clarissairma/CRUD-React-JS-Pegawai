@@ -118,7 +118,7 @@ const TableComponent = (props) => {
                 <Col>
                   <Link to="/create">
                     <Button color="dark" className="mr-2">
-                      <FontAwesomeIcon icon={faUserPlus} /> Create User
+                      <FontAwesomeIcon icon={faUserPlus} /> Tambah Pegawai
                     </Button>
                   </Link>
                 </Col>

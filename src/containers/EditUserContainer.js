@@ -28,11 +28,11 @@ class EditUserContainer extends Component {
         swal("Failed!", this.props.errorResponDataUser, "error");
       } else {
         swal(
-          "User Updated!",
+          "Data Pegawai Berhasil Diubah!",
           "Nama : " +
-            this.props.getResponDataUser.nama +
-            " , Umur : " +
-            this.props.getResponDataUser.umur,
+            this.props.getResponDataUser.namaLengkap +
+            " , ID : " +
+            this.props.getResponDataUser.id,
           "success"
         );
       }
@@ -40,7 +40,7 @@ class EditUserContainer extends Component {
     return (
       <Container>
         <BackComponent />
-        <h1>Edit User</h1>
+        <h1>Edit Data Pegawai</h1>
         <FormComponent onSubmit={(data) => this.handleSubmit(data)} />
       </Container>
     );

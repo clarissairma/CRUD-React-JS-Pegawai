@@ -29,7 +29,7 @@ class CreateUserContainer extends Component {
           );
       }else {
         swal(
-            "User Created!",
+            "Pegawai Berhasil Dibuat!",
             "Nama : " +
               this.props.getResponDataUser.namaLengkap +
               " , ID : " +
@@ -41,7 +41,7 @@ class CreateUserContainer extends Component {
     return (
       <Container>
         <BackComponent />
-        <h1>Create User</h1>
+        <h1>Tambah Pegawai</h1>
         <FormComponent onSubmit={(data) => this.handleSubmit(data)} />
       </Container>
     );
